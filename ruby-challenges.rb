@@ -33,13 +33,16 @@ us_states = { northwest: ['Washington', 'Oregon', 'Idaho'], southwest: ['Califor
 # shovel all values into the result
 # return flatten result array and sort it
 
+# Pseudo code 2: create a method that takes in a hash.
+# transform the values in the hash into an array to remove the hash brackets. concatinate the arrays to make 1 array and sort for it to be alphabetized. 
+
 # Wasn't able to finish </3
 
 
-def sorted_hash hash
-    return hash.transform_values.sort
-end
-    p sorted_hash(us_states)
+# def sorted_hash hash
+#     return hash.transform_values.sort
+# end
+#     p sorted_hash(us_states)
 
 # --------------------3a) Create a class called Bike that is initialized with a model, wheels, and current_speed. The default number of wheels is 2. The current_speed should start at 0. Create a bike_info method that returns a sentence with all the data from the bike object.
 
@@ -51,7 +54,7 @@ end
 # initialize default val of 0
 # use the attr acessor to pass in the symbols before initialize 
 # create bike info method
-# return a sentence with all data from bike object
+# return a sentence with all data from bike object with a streing interpolated message
 
 
 # class bike 
@@ -68,4 +71,4 @@ end
 
 
 
-# Pseudo code: 
+# Pseudo code: add some logic into a method to the pedal and brake to increase or decrease the integers when called upon. Add 0].max to make sure the integer never goes below 0 when braking.
