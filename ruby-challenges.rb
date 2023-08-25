@@ -72,3 +72,13 @@ us_states = { northwest: ['Washington', 'Oregon', 'Idaho'], southwest: ['Califor
 
 
 # Pseudo code: add some logic into a method to the pedal and brake to increase or decrease the integers when called upon. Add 0].max to make sure the integer never goes below 0 when braking.
+
+attr_writer :current_speed
+
+def speed_increment 
+    @current_speed
+end
+
+def speed_decrement
+    @current_speed
+end
